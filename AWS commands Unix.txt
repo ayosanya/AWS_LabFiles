@@ -1,0 +1,49 @@
+cat $HOME/bitnami_application_password
+
+fZWdnekXFk76
+
+AGTfbBOzJgA5
+
+http://PublicIpAddress/wp-login.php
+
+http://172-26-4-7
+
+bitnami@ip-172-26-4-7
+
+172-26-0-241
+
+Blhpfns4l0SK
+3.8.133.154
+
+http://3.8.133.154/wp-content/uploads/2020/09/gamartec.png
+
+URL LAB LINKS
+
+https://us-east-2.console.aws.amazon.com/console/home?nc2=h_ct&region=us-east-2&src=header-signin#
+
+https://aws.amazon.com/getting-started/hands-on/
+
+https://lightsail.aws.amazon.com/ls/webapp/home/instances
+
+https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/?trk=gs_card
+
+https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:
+
+PHYTON COMMANDS
+
+import json
+
+print('Loading function')
+
+
+def lambda_handler(event, context):
+    #print("Received event: " + json.dumps(event, indent=2))
+    print("value1 = " + event['key1'])
+    print("value2 = " + event['key2'])
+    print("value3 = " + event['key3'])
+    return event['key1']  # Echo back the first key value
+    #raise Exception('Something went wrong')
+
+
+eastus2
+	i-04f8677347c859bd5

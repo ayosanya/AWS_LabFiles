@@ -1,0 +1,145 @@
+migrations@amazon.com 
+ORACLE AND MICROSOFT WORKLOADS ON AWS CLOUD MANAGEMENT
+Modernize Microsoft and Oracle Workloads with AWS
+MSSQL on Linux RedHat ans Susi from version MSSQL 2017
+
+Any help in moving code from DotNet to ElastickBeanStack
+A:
+Hello Ayodeji, you are able to leverage the AWS visual studio toolkit to deploy directly, your 
+Dot.Net code to Beanstalk or to AWS Lambda
+
+Do you have solutions for products like ERP for SAP, SAGE Oracle Fusion from MSSQL to Arora
+A:
+With Amazon SCT (Schema Conversion Tool), you can see the compatibility level on a very granular level 
+and see what would be required to change in the DB.
+
+OPTIMIZATION OF LICENCING IN AWS
+Tools:migrations@amazon.com; TSO Logic, Cloudamize and CloudChomp,
+REASON FOR MIGRATION:
+Mordrnization
+Database Optimization
+Serverless Containerization
+Submit cost assesment a request to migrations@amazon.
+Tools for agent and agenless workload analysis: TSO Logic, Cloudamize and CloudChomp
+
+
+
+MICROSOFT SUMMIT ON MMSQL MIGRATION 
+
+
+Do we get the OnDemand video link after the presentation
+Hello, this webinar isn't being recorded, but we will share the slides at the presentation.
+Will I get these slides at some point..?
+Hi there, yes we will be sharing slides after the presentation
+
+Hi, Is SQL 2008 support also ends in IAAS ?
+Yes & no - SQL2008 went end of life last July. We are offering 3 years of "extended support" 
+but you have to pay for this *unless* you're runing SQL2008 on Azure then we'll give you the 3 years of 
+Extended Support for free. Just to be clear these updates are security patches only - 
+no service or performance improvements. So this effectlively extend SQL2008 life to July 2022.
+
+how can I register for other Virtual events like this. this was given by my friend.
+Hello. There are some other UK events here you can register : https://www.microsoft.com/en-gb/events/
+
+Will this presentation be made available after ?
+Yes we will be sharing the slides after
+
+Apologies for the technical difficulties. We are now on a break till 11:15am
+
+how can I register for other Virtual events like this. this was given by my friend.
+Hello. There are some other UK events here you can register : https://www.microsoft.com/en-gb/events/
+
+Can you give us some advantages of cosmos db over MSSQL in Azure for a refactoring migration over lift and shift
+Hi Cosmos is great for massively scalable, globally distributed systems that need to replicate data around the world - 
+to bring the data close to the user so it tends to be very different usecast to SQL Server (of any flavour - IaaS or PaaS).
+Can we have the link to the presentation slides as I missed the first part of the current training
+Hi will the slides be available after the presentation ?
+
+Do we get the OnDemand video link after the presentation
+Hello, this webinar isn't being recorded, but we will share the slides at the presentation.
+Will I get these slides at some point..?
+Hi there, yes we will be sharing slides after the presentation
+
+Hi, Is SQL 2008 support also ends in IAAS ?
+Yes & no - SQL2008 went end of life last July. We are offering 3 years of "extended support" but you have to pay for this *unless* 
+you're runing SQL2008 on Azure then we'll give you the 3 years of Extended Support for free. Just to be clear these updates are security 
+patches only - no service or performance improvements. So this effectlively extend SQL2008 life to July 2022.
+
+how can I register for other Virtual events like this. this was given by my friend.
+Hello. There are some other UK events here you can register : https://www.microsoft.com/en-gb/events/
+Can you give us some advantages of cosmos db over MSSQL in Azure for a refactoring migration over lift and shift
+Hi Cosmos is great for massively scalable, globally distributed systems that need to replicate data around the world - 
+to bring the data close to the user so it tends to be very different usecast to SQL Server (of any flavour - IaaS or PaaS).
+Lost sound again
+
+Does DMS support migrating Windows logins yet, or is it still just SQL logins ?
+DMS supports migrating windows Logins in Offline migrations only. You need to configure DMS to do this as by default 
+this is disabled. Once you have your DMS service available in Azure, head to the configuration menu to enable.
+Can I replay this Demo later please? Sorry I got dragged to do some urgent work for my company whilst watching.
+Apologies but this webinar is not being recorded. However, you can view a similar presentation on DMA and DMS with Raj, 
+our Principal Programme manager in this link https://azure.microsoft.com/en-us/resources/videos/data-migration-demo-using-azure-migrate-dma-and-dms/. 
+We will share the slides after the presentation.
+
+Is it possible to retain the connection string (SQL instance name) without applications to change it ?
+You have to remember that migrating the DB to a different server so the host name change & break existing connection string 
+(just as if you were migrating to a new server on-prem). But you can use: - SQL Aliases - these are configured on the desktop 
+and redirect local apps to the new server without changing their conn strings - Speak nicely to the networking guys & see if 
+they do a DNS alias for you which saves having to maintain aliases/redirects on each desktop. Hope that helps!
+
+Does DMA change DB compatibility automatically
+No - TBH honest it doesn't care about DB compatibility level as such 
+- it's a property of the DB and simple tells the host SQL exe 
+which version of the engine to use with that database.
+
+What are the intergratable solutions avalaible with Datalake and what maximum workloads are available?
+you can connect to Azure Data Lake using the Flexible File Format connector ... 
+https://docs.microsoft.com/en-us/sql/integration-services/data-flow/flexible-file-source?view=sql-server-ver15an 
+connect to Data Lake using the Flexible File connector .
+
+What industrial runtimes are avalaible on SSIS and Datafactory
+Sorry, can you clarify Industrial. Or do you mean Integrated?
+java runtime....say .net
+So we only support SSIS runtime as part of this. But in Azure Data Factory we support different ways to integrate. 
+Within SSIS you can call .net but wouldn't see java in this context
+
+https://www.microsoft.com/en-gb/events/
+Can you give us some advantages of cosmos db over MSSQL in Azure for a refactoring migration over lift and shift
+Hi Cosmos is great for massively scalable, globally distributed systems that need to replicate data around the world - 
+to bring the data close to the user so it tends to be very different usecast to SQL Server (of any flavour - IaaS or PaaS).
+
+Does DMS support migrating Windows logins yet, or is it still just SQL logins ?
+DMS supports migrating windows Logins in Offline migrations only. 
+You need to configure DMS to do this as by default this is disabled. 
+Once you have your DMS service available in Azure, head to the configuration menu to enable.
+
+Can I replay this Demo later please? Sorry I got dragged to do some urgent work for my company whilst watching.
+Apologies but this webinar is not being recorded. 
+However, you can view a similar presentation on DMA and DMS with Raj, our Principal 
+Programme manager in this link https://azure.microsoft.com/en-us/resources/videos/data-migration-demo-using-azure-migrate-dma-and-dms/. 
+We will share the slides after the presentation.
+
+Is it possible to retain the connection string (SQL instance name) without applications to change it ?
+You have to remember that migrating the DB to a different server so the host name change & break existing connection string 
+(just as if you were migrating to a new server on-prem). But you can use: - SQL Aliases - these are configured on the 
+desktop and redirect local apps to the new server without changing their conn strings - 
+Speak nicely to the networking guys & see if they do a DNS alias for you which saves having to maintain aliases/redirects on each 
+desktop. Hope that helps!
+
+Does DMA change DB compatibility automatically
+No - TBH honest it doesn't care about DB compatibility level as such - it's a prp[poperty of the DB and simple tells the host 
+SQL exe which version of the engine to use with that database.
+
+What are the intergratable solutions avalaible with Datalake and what maximum workloads are available?
+you can connect to Azure Data Lake using the Flexible File Format connector ... 
+https://docs.microsoft.com/en-us/sql/integration-services/data-flow/flexible-file-source?view=sql-server-ver15an connect to 
+Data Lake using the Flexible File connector .
+
+What industrial runtimes are avalaible on SSIS and Datafactory
+Sorry, can you clarify Industrial. Or do you mean Integrated?
+java runtime....say .net
+So we only support SSIS runtime as part of this. But in Azure Data Factory we support different ways to integrate. 
+Within SSIS you can call .net but wouldn't see java in this context
+
+Can we download the slides?
+Hi We'll be sending the slides out next week with a bunch of other resources/useful links.
+
